@@ -3,7 +3,7 @@ import subprocess
 
 from ..backend import Backend
 from ..exceptions import BackendError, DeviceError
-from ..device import DS4Device, DSenseDevice
+from ..device import DS4Device
 from ..utils import zero_copy_slice
 
 
